@@ -1,0 +1,3 @@
+return {
+  "willothy/wezterm.nvim",
+}
