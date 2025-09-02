@@ -55,3 +55,10 @@ end, { desc = "Create code screenshot" })
 keymap.set("n", "<leader>cs", function()
     vim.cmd("Telescope colorscheme")
 end, { desc = "Change colorscheme" })
+
+keymap.set(
+    "n",
+    "<leader>aD",
+    ':lua vim.fn.system("rm -Rf ~/.local/state/nvim/avante")<CR>',
+    { noremap = true, silent = true, desc = "Clear avante state" }
+)

@@ -4,7 +4,7 @@ function M.setup_keymaps(harpoon)
     local list = harpoon:list()
     local keymap = vim.keymap.set
 
-    keymap("n", "<leader>a", function()
+    keymap("n", "<leader><leader>", function()
         list:add()
     end, { desc = "Harpoon: Add file" })
 
