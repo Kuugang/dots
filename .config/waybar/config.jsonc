@@ -11,7 +11,7 @@
     //==> Modules Layout
     ///////////////////////////////////////////////////////////////
 	"modules-left": [
-		"custom/l_end","tray","custom/r_end","custom/l_end","hyprland/workspaces","custom/r_end","custom/l_end","wlr/taskbar","custom/r_end","custom/padd"
+		"custom/l_end","tray","custom/r_end","custom/l_end","hyprland/workspaces","niri/workspaces", "custom/r_end", "custom/padd"
 	],
 	"modules-center": [
 		"group/system-info"

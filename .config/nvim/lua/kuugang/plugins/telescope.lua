@@ -27,11 +27,10 @@ return {
                             actions.send_selected_to_qflist(prompt_bufnr)
                             vim.cmd("Trouble quickfix")
                         end,
-
                         ["<c-t>"] = open_with_trouble,
                     },
                     n = {
-
+                        ["q"] = actions.close,
                         ["<c-t>"] = open_with_trouble,
                     },
                 },

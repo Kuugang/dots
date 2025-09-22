@@ -18,7 +18,6 @@ return {
                     temperature = 0,
                     max_completion_tokens = 1000000,
                 },
-                model = "gpt5-mini",
             },
         },
 

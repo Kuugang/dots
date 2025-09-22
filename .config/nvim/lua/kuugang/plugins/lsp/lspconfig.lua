@@ -4,7 +4,7 @@ return {
     dependencies = {
         "hrsh7th/cmp-nvim-lsp",
         { "antosha417/nvim-lsp-file-operations", config = true },
-        { "folke/neodev.nvim",                   opts = {} },
+        { "folke/neodev.nvim", opts = {} },
     },
     config = function()
         -- import lspconfig plugin
@@ -23,11 +23,11 @@ return {
         end
 
         --typescript
-        lspconfig.ts_ls.setup({
-            on_attach = on_attach,
-            cmd = { "typescript-language-server", "--stdio" },
-            filetypes = { "typescript", "typescriptreact", "typescript.tsx", "javascript", "javascriptreact" },
-        })
+        -- lspconfig.ts_ls.setup({
+        --     on_attach = on_attach,
+        --     cmd = { "typescript-language-server", "--stdio" },
+        --     filetypes = { "typescript", "typescriptreact", "typescript.tsx", "javascript", "javascriptreact" },
+        -- })
 
         lspconfig.csharp_ls.setup({
             on_attach = on_attach,
@@ -173,7 +173,7 @@ return {
         --     end,
         -- })
 
-        local servers = { "lua_ls", "emmet_ls" }
+        local servers = { "lua_ls", "emmet_ls", "ts_ls" }
 
         for _, server in ipairs(servers) do
             lspconfig[server].setup({

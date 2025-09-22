@@ -22,8 +22,8 @@ keymap.set("n", "<C-M-j>", "<C-w>J", { desc = "Move window to bottom" })
 keymap.set("n", "<C-M-k>", "<C-w>K", { desc = "Move window to top" })
 keymap.set("n", "<C-M-l>", "<C-w>L", { desc = "Move window to right" })
 
-keymap.set("n", "=", [[<cmd>vertical resize +5<cr>]]) -- make the window biger vertically
-keymap.set("n", "-", [[<cmd>vertical resize -5<cr>]]) -- make the window smaller vertically
+keymap.set("n", "=", [[<cmd>vertical resize +5<cr>]])   -- make the window biger vertically
+keymap.set("n", "-", [[<cmd>vertical resize -5<cr>]])   -- make the window smaller vertically
 keymap.set("n", "+", [[<cmd>horizontal resize +2<cr>]]) -- make the window bigger horizontally by pressing shift and =
 keymap.set("n", "_", [[<cmd>horizontal resize -2<cr>]]) -- make the window smaller horizontally by pressing shift and -
 

@@ -1,3 +1,0 @@
-return {
-  "willothy/wezterm.nvim",
-}
