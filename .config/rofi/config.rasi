@@ -10,6 +10,11 @@ configuration {
     window-format:               "{w}{t}";
     font:                        "JetBrainsMono Nerd Font 10";
     icon-theme:                  "Tela-circle-dracula";
+    kb-remove-to-eol: "";
+    kb-accept-entry: "Return";
+
+    kb-row-up:        "Control+k";
+    kb-row-down:      "Control+j";
 } 
 
 @theme "theme"
