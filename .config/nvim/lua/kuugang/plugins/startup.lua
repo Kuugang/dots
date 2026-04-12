@@ -59,7 +59,7 @@ return {
                 default_color = "",
                 oldfiles_amount = 0,
             },
-            cat = {
+            cats = {
                 type = "text",
                 oldfiles_directory = false,
                 align = "center",

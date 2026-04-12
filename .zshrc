@@ -107,3 +107,6 @@ source ~/.zsh.env
 fastfetch
 eval "$(zoxide init zsh)"
 alias dotfiles='/usr/bin/git --git-dir=/home/kuugang/.dotfiles/ --work-tree=/home/kuugang'
+
+# opencode
+export PATH=/home/kuugang/.opencode/bin:$PATH
